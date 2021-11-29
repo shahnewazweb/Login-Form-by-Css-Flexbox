@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*main menu*/
+.logo-humbarg {
+  background: #5582C6;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  padding:10px 50px;
+  margin-bottom: 50px;
+}
+a .fa-bars {
+  font-size: 50px;
+}
+.fa.fa-close {
+  font-size: 50px;
+  color:#fff;
+ 
+}
+.logo a{
+  text-decoration: none;
+  color:#fff;
+}
+/*main menu end*/
+.modal{
+    width:70%;
+    margin:auto;
+}
+.imgcontainer img{
+    width:30%;
+    border-radius: 50%;
+    margin:auto;
+    display: block;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc; 
+}
+.container label{
+    color:#333;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+button{
+  background-color: #04AA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+}
+.container-footer{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 10px;
+    margin:20px 0px;
+}
+.cancelbtn{
+    width:20%;
+}
+
+.footer {
+  background: rgb(51, 51, 51);
+  grid-area: 6/1/7/4;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+.social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 10px;
+}
+.rights p {
+  padding-top: 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rights p a {
+  padding-top: 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.social li{
+  text-decoration: none;
+  list-style: none;
+}
+.social a{
+  text-decoration: none;
+  padding:0px 5px;
+  color:#fff;
+  transition: 0.5s;
+}
+.social a:hover{
+  color:#5582C6;
+}
+@media screen and (max-width: 768px) {
+  span.psw {
+     text-align: center;
+     width:100%;
+     padding-bottom:10px;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
